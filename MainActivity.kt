@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
-        // Membuat tampilan teks sederhana tanpa file XML
+        // Membuat tampilan teks sederhana
         val textView = TextView(this)
         textView.text = "Aplikasi Kasir Stroller Berhasil Dibuka!"
         textView.textSize = 24f
